@@ -1,0 +1,152 @@
+.feeds {
+  flex: 0.47;
+  border-right: 0.5px solid #585757;
+  border-left: 0.5px solid #585757;
+}
+
+.feeds__nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 15px 20px;
+}
+
+.feeds__nav > ul > li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.feeds__nav > ul > li:first-child {
+  font-weight: 700;
+}
+
+.feeds__post {
+  display: flex;
+  margin-top: 20px;
+  max-width: 100%;
+  border-bottom: 0.5px solid #585757;
+  padding: 15px 20px;
+  padding-bottom: 30px;
+  /* align-items: center; */
+}
+.feedsPost__img {
+  margin-right: 10px;
+}
+.feedsPost__img > img {
+  object-fit: contain;
+  width: 50px;
+  border-radius: 50%;
+}
+.feedsPost__input {
+  width: 100%;
+}
+
+.textareaElement {
+  /* width: 90%; */
+  min-height: 60px;
+  border-bottom: 0.5px solid #585757;
+  max-height: 800px;
+  overflow-y: auto;
+  outline: none;
+  margin-bottom: 18px;
+}
+.feedsPostInput__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.feedsPostInput__icons > ul {
+  display: flex;
+  list-style: none;
+}
+
+.feedsPostInput__icons > ul > li {
+  margin-right: 15px;
+  color: #1a8cd8;
+  font-size: 1.3rem;
+}
+
+.feedsPostInputBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  background-color: #1a8cd8;
+  border-radius: 30px;
+}
+.feedsPostInputBtn > button {
+  background-color: #1a8cd8;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.feedsPost__input {
+  width: 100%;
+}
+.feedsTweets__info {
+  display: flex;
+  padding: 20px 12px;
+  border-bottom: 0.5px solid #585757;
+  width: 100%;
+}
+
+.feedTweets__img {
+  margin-right: 13px;
+}
+
+.feedTweets__img > img {
+  object-fit: contain;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.feedsTweets__details {
+  width: 100%;
+}
+.tweets__names {
+  margin-bottom: 5px;
+}
+.tweets__names > h1 {
+  display: inline;
+  font-size: 1.1rem;
+  margin-right: 7px;
+}
+
+.tweets__names > span {
+  color: #585757;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.tweet {
+  margin-bottom: 20px;
+}
+
+.tweet > p {
+  line-height: 1.3;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.tweet__option > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.tweet__option > ul > li {
+  font-size: 1.2rem;
+  color: #585757;
+  display: flex;
+}
+.tweet__option > ul > li > span {
+  font-size: 1rem;
+  margin-left: 6px;
+}

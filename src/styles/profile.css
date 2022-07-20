@@ -1,0 +1,111 @@
+.profile {
+  flex: 0.47;
+  border-right: 0.5px solid #585757;
+  border-left: 0.5px solid #585757;
+}
+
+.profileTop__options {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+}
+.arrBack {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-right: 40px;
+}
+.numOfTweets > h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.numOfTweets > p {
+  color: #585757;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.edit__profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 5px;
+}
+
+.edit__profile > img {
+  object-fit: contain;
+  width: 140px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  margin-top: -66px;
+}
+
+.edit__profile > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  margin-top: 7px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #ffffffc7;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profileInfo__details {
+  padding: 5px 18px;
+}
+.profile__names {
+  margin-bottom: 18px;
+}
+.profile__names > h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.profile__names > p {
+  font-size: 0.9rem;
+  color: #585757;
+  font-weight: 500;
+}
+
+.profile__dates > span {
+  color: #585757;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.profile__dates .dob {
+  margin-right: 15px;
+}
+.datesIcons {
+  font-size: 1.2rem;
+  margin-bottom: -3px;
+}
+
+.follows {
+  margin-top: 12px;
+  display: flex;
+}
+
+.follows > h2 {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.follows > h2 > span {
+  color: #585757;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.profile__options {
+  padding: 15px 40px;
+}
+.profile__options > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
