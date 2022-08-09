@@ -61,7 +61,7 @@ const SignUp = () => {
           <ImTwitter className="bird__icon" />
           <div className="signUp__detail">
             <h1>Happening Now</h1>
-            <h3>Join Twitter Today</h3>
+            <h2>Join Twitter Today</h2>
           </div>
           <div className="signUp__btn">
             <button onClick={handleOpenModal}>Sign up with email</button>

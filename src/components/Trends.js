@@ -55,13 +55,11 @@ const Trends = () => {
       </div>
       <div className="trends__bottom">
         <h3>Trends for you</h3>
-        {tredingTopics.map((trend) => {
-          return (
-            <ul>
-              <li>{trend.trend}</li>
-            </ul>
-          );
-        })}
+        <ul>
+          {tredingTopics.map((trend) => {
+            return <li key={trend.id}>{trend.trend}</li>;
+          })}
+        </ul>
       </div>
     </div>
   );

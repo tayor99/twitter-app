@@ -1,5 +1,10 @@
-body {
-  background-color: #000;
+:root {
+  --twitter-blue: #1a8cd8;
+  --little-dark: #585757;
+  --black: #000;
+}
+ody {
+  background-color: var(--black);
   color: #fff;
 }
 * {
@@ -10,4 +15,10 @@ body {
 }
 .app {
   display: flex;
+}
+.hide {
+  display: none;
+}
+.disabled {
+  cursor: not-allowed;
 }

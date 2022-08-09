@@ -24,7 +24,7 @@
   margin-bottom: 40px;
 }
 
-.signUp__detail > h3 {
+.signUp__detail > h2 {
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 40px;
@@ -39,13 +39,13 @@
   height: 50px;
   width: 300px;
   border: none;
-  background-color: #1a8cd8;
+  background-color: var(--twitter-blue);
   color: #fff;
   border-radius: 25px;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 7px;
-  transition: 300ms;
+  transition: background 300ms;
   cursor: pointer;
 }
 
@@ -53,11 +53,11 @@
   background: #0e71b3;
 }
 .signUp__btn > p {
-  color: #585757;
+  color: var(--little-dark);
   font-size: 0.8rem;
 }
 .signUp__btn > p > span {
-  color: #1a8cd8;
+  color: var(--twitter-blue);
 }
 
 .signIn__btn > button {
@@ -66,9 +66,9 @@
   align-items: center;
   height: 50px;
   width: 300px;
-  border: 0.5px solid #585757;
-  color: #1a8cd8;
-  background-color: #000;
+  border: 0.5px solid var(--little-dark);
+  color: var(--twitter-blue);
+  background-color: var(--black);
   border-radius: 25px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -95,7 +95,7 @@
   margin-right: 20px;
   margin-bottom: 6px;
   font-size: 0.9rem;
-  color: #585757;
+  color: var(--little-dark);
 }
 .signUp__footer > ul > li:hover {
   text-decoration: underline;
@@ -103,7 +103,7 @@
 }
 
 .app__modal {
-  background-color: #000;
+  background-color: var(--black);
   width: 45%;
   height: 85%;
   margin: 50px auto;

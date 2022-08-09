@@ -1,7 +1,7 @@
 .feeds {
   flex: 0.47;
-  border-right: 0.5px solid #585757;
-  border-left: 0.5px solid #585757;
+  border-right: 0.5px solid var(--little-dark);
+  border-left: 0.5px solid var(--little-dark);
 }
 
 .feeds__nav > ul {
@@ -24,7 +24,7 @@
   display: flex;
   margin-top: 20px;
   max-width: 100%;
-  border-bottom: 0.5px solid #585757;
+  border-bottom: 0.5px solid var(--little-dark);
   padding: 15px 20px;
   padding-bottom: 30px;
   /* align-items: center; */
@@ -44,7 +44,7 @@
 .textareaElement {
   /* width: 90%; */
   min-height: 60px;
-  border-bottom: 0.5px solid #585757;
+  border-bottom: 0.5px solid var(--little-dark);
   max-height: 800px;
   overflow-y: auto;
   outline: none;
@@ -63,7 +63,7 @@
 
 .feedsPostInput__icons > ul > li {
   margin-right: 15px;
-  color: #1a8cd8;
+  color: var(--twitter-blue);
   font-size: 1.3rem;
 }
 
@@ -73,11 +73,11 @@
   justify-content: center;
   width: 80px;
   height: 30px;
-  background-color: #1a8cd8;
+  background-color: var(--twitter-blue);
   border-radius: 30px;
 }
 .feedsPostInputBtn > button {
-  background-color: #1a8cd8;
+  background-color: var(--twitter-blue);
   color: #fff;
   font-size: 0.9rem;
   font-weight: 600;
@@ -92,7 +92,7 @@
 .feedsTweets__info {
   display: flex;
   padding: 20px 12px;
-  border-bottom: 0.5px solid #585757;
+  border-bottom: 0.5px solid var(--little-dark);
   width: 100%;
 }
 
@@ -119,7 +119,7 @@
 }
 
 .tweets__names > span {
-  color: #585757;
+  color: var(--little-dark);
   font-size: 0.9rem;
   font-weight: 400;
 }
@@ -143,7 +143,7 @@
 
 .tweet__option > ul > li {
   font-size: 1.2rem;
-  color: #585757;
+  color: var(--little-dark);
   display: flex;
 }
 .tweet__option > ul > li > span {
