@@ -1,0 +1,111 @@
+.profile {
+  flex: 0.47;
+  border-right: 0.5px solid var(--little-dark);
+  border-left: 0.5px solid var(--little-dark);
+}
+
+.profileTop__options {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+}
+.arrBack {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-right: 40px;
+}
+.numOfTweets > .profile__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.numOfTweets > .tweet__count {
+  color: var(--little-dark);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.edit__profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 5px;
+}
+
+.edit__profile > img {
+  object-fit: contain;
+  width: 140px;
+  border-radius: 50%;
+  border: 5px solid var(--black);
+  margin-top: -66px;
+}
+
+.edit__profile > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  margin-top: 7px;
+  background-color: var(--black);
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #ffffffc7;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profileInfo__details {
+  padding: 5px 18px;
+}
+.profile__names {
+  margin-bottom: 18px;
+}
+.details__name {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.details__username {
+  font-size: 0.9rem;
+  color: var(--little-dark);
+  font-weight: 500;
+}
+
+.profile__dates > span {
+  color: var(--little-dark);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.profile__dates .dob {
+  margin-right: 15px;
+}
+.datesIcons {
+  font-size: 1.2rem;
+  margin-bottom: -3px;
+}
+
+.follows {
+  margin-top: 12px;
+  display: flex;
+}
+
+.followers__count {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.followers__count > span {
+  color: var(--little-dark);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.profile__options {
+  padding: 15px 40px;
+}
+.profile__options > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}

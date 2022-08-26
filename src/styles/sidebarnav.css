@@ -1,0 +1,28 @@
+.sidebarNav {
+  margin-bottom: 2px;
+}
+.sidebarNav__details {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+
+  border-radius: 20px;
+  padding: 10px;
+  transition: background 700ms;
+  cursor: pointer;
+  width: fit-content;
+}
+.sidebarNav__details:hover {
+  background: rgba(88, 87, 87, 0.4);
+}
+
+.sidebarNav__icons {
+  color: #ffffffe3;
+  font-size: 1.9rem;
+  margin-right: 15px;
+}
+.sidebarNav__details > p {
+  color: #ffffffe3;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
